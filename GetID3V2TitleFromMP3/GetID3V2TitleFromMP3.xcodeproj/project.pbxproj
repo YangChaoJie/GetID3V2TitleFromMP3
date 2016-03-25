@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6903DCD81CA3B9BA00473CDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6903DCD71CA3B9BA00473CDC /* main.m */; };
+		6903DCDB1CA3B9BA00473CDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6903DCDA1CA3B9BA00473CDC /* AppDelegate.m */; };
+		6903DCDE1CA3B9BA00473CDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6903DCDD1CA3B9BA00473CDC /* ViewController.m */; };
+		6903DCE31CA3B9BA00473CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6903DCE21CA3B9BA00473CDC /* Assets.xcassets */; };
+		6903DCE61CA3B9BA00473CDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6903DCE41CA3B9BA00473CDC /* LaunchScreen.storyboard */; };
+		6903DCF11CA3B9BA00473CDC /* GetID3V2TitleFromMP3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6903DCF01CA3B9BA00473CDC /* GetID3V2TitleFromMP3Tests.m */; };
+		6903DCFC1CA3B9BA00473CDC /* GetID3V2TitleFromMP3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6903DCFB1CA3B9BA00473CDC /* GetID3V2TitleFromMP3UITests.m */; };
+		69718D2E1CA3CA6300143B45 /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69718D2D1CA3CA6300143B45 /* music1.mp3 */; };
+		69718D321CA3D1D100143B45 /* music2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69718D311CA3D1D100143B45 /* music2.mp3 */; };
+		7BD176B550F3E416C1DE6C47 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D117362E7C5FCCABDF07FF /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6903DCED1CA3B9BA00473CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6903DCCB1CA3B9BA00473CDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6903DCD21CA3B9BA00473CDC;
+			remoteInfo = GetID3V2TitleFromMP3;
+		};
+		6903DCF81CA3B9BA00473CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6903DCCB1CA3B9BA00473CDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6903DCD21CA3B9BA00473CDC;
+			remoteInfo = GetID3V2TitleFromMP3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CB43E5AA8561B732414737E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6903DCD31CA3B9BA00473CDC /* GetID3V2TitleFromMP3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetID3V2TitleFromMP3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6903DCD71CA3B9BA00473CDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6903DCD91CA3B9BA00473CDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6903DCDA1CA3B9BA00473CDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6903DCDC1CA3B9BA00473CDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6903DCDD1CA3B9BA00473CDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6903DCE21CA3B9BA00473CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6903DCE51CA3B9BA00473CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6903DCE71CA3B9BA00473CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6903DCEC1CA3B9BA00473CDC /* GetID3V2TitleFromMP3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetID3V2TitleFromMP3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6903DCF01CA3B9BA00473CDC /* GetID3V2TitleFromMP3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetID3V2TitleFromMP3Tests.m; sourceTree = "<group>"; };
+		6903DCF21CA3B9BA00473CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6903DCF71CA3B9BA00473CDC /* GetID3V2TitleFromMP3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetID3V2TitleFromMP3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6903DCFB1CA3B9BA00473CDC /* GetID3V2TitleFromMP3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetID3V2TitleFromMP3UITests.m; sourceTree = "<group>"; };
+		6903DCFD1CA3B9BA00473CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69718D2D1CA3CA6300143B45 /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
+		69718D311CA3D1D100143B45 /* music2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music2.mp3; sourceTree = "<group>"; };
+		71845E7DE99571FEF6EB23AA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D7D117362E7C5FCCABDF07FF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6903DCD01CA3B9BA00473CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD176B550F3E416C1DE6C47 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903DCE91CA3B9BA00473CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903DCF41CA3B9BA00473CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		073EC541CDCCEB48D2AFB0B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7D117362E7C5FCCABDF07FF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D60260E04B40A954FB1C250 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CB43E5AA8561B732414737E /* Pods.debug.xcconfig */,
+				71845E7DE99571FEF6EB23AA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6903DCCA1CA3B9BA00473CDC = {
+			isa = PBXGroup;
+			children = (
+				6903DCD51CA3B9BA00473CDC /* GetID3V2TitleFromMP3 */,
+				6903DCEF1CA3B9BA00473CDC /* GetID3V2TitleFromMP3Tests */,
+				6903DCFA1CA3B9BA00473CDC /* GetID3V2TitleFromMP3UITests */,
+				6903DCD41CA3B9BA00473CDC /* Products */,
+				1D60260E04B40A954FB1C250 /* Pods */,
+				073EC541CDCCEB48D2AFB0B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6903DCD41CA3B9BA00473CDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6903DCD31CA3B9BA00473CDC /* GetID3V2TitleFromMP3.app */,
+				6903DCEC1CA3B9BA00473CDC /* GetID3V2TitleFromMP3Tests.xctest */,
+				6903DCF71CA3B9BA00473CDC /* GetID3V2TitleFromMP3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6903DCD51CA3B9BA00473CDC /* GetID3V2TitleFromMP3 */ = {
+			isa = PBXGroup;
+			children = (
+				6903DCD91CA3B9BA00473CDC /* AppDelegate.h */,
+				6903DCDA1CA3B9BA00473CDC /* AppDelegate.m */,
+				6903DCDC1CA3B9BA00473CDC /* ViewController.h */,
+				6903DCDD1CA3B9BA00473CDC /* ViewController.m */,
+				6903DCE21CA3B9BA00473CDC /* Assets.xcassets */,
+				6903DCE41CA3B9BA00473CDC /* LaunchScreen.storyboard */,
+				6903DCE71CA3B9BA00473CDC /* Info.plist */,
+				69718D2D1CA3CA6300143B45 /* music1.mp3 */,
+				69718D311CA3D1D100143B45 /* music2.mp3 */,
+				6903DCD61CA3B9BA00473CDC /* Supporting Files */,
+			);
+			path = GetID3V2TitleFromMP3;
+			sourceTree = "<group>";
+		};
+		6903DCD61CA3B9BA00473CDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6903DCD71CA3B9BA00473CDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6903DCEF1CA3B9BA00473CDC /* GetID3V2TitleFromMP3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6903DCF01CA3B9BA00473CDC /* GetID3V2TitleFromMP3Tests.m */,
+				6903DCF21CA3B9BA00473CDC /* Info.plist */,
+			);
+			path = GetID3V2TitleFromMP3Tests;
+			sourceTree = "<group>";
+		};
+		6903DCFA1CA3B9BA00473CDC /* GetID3V2TitleFromMP3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6903DCFB1CA3B9BA00473CDC /* GetID3V2TitleFromMP3UITests.m */,
+				6903DCFD1CA3B9BA00473CDC /* Info.plist */,
+			);
+			path = GetID3V2TitleFromMP3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6903DCD21CA3B9BA00473CDC /* GetID3V2TitleFromMP3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6903DD001CA3B9BA00473CDC /* Build configuration list for PBXNativeTarget "GetID3V2TitleFromMP3" */;
+			buildPhases = (
+				7A353EB366DA26CACE4A90FF /* Check Pods Manifest.lock */,
+				6903DCCF1CA3B9BA00473CDC /* Sources */,
+				6903DCD01CA3B9BA00473CDC /* Frameworks */,
+				6903DCD11CA3B9BA00473CDC /* Resources */,
+				564C80BB6025C691123E7D75 /* Embed Pods Frameworks */,
+				FFA0EE85D260D2815A78F50B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetID3V2TitleFromMP3;
+			productName = GetID3V2TitleFromMP3;
+			productReference = 6903DCD31CA3B9BA00473CDC /* GetID3V2TitleFromMP3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6903DCEB1CA3B9BA00473CDC /* GetID3V2TitleFromMP3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6903DD031CA3B9BA00473CDC /* Build configuration list for PBXNativeTarget "GetID3V2TitleFromMP3Tests" */;
+			buildPhases = (
+				6903DCE81CA3B9BA00473CDC /* Sources */,
+				6903DCE91CA3B9BA00473CDC /* Frameworks */,
+				6903DCEA1CA3B9BA00473CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6903DCEE1CA3B9BA00473CDC /* PBXTargetDependency */,
+			);
+			name = GetID3V2TitleFromMP3Tests;
+			productName = GetID3V2TitleFromMP3Tests;
+			productReference = 6903DCEC1CA3B9BA00473CDC /* GetID3V2TitleFromMP3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6903DCF61CA3B9BA00473CDC /* GetID3V2TitleFromMP3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6903DD061CA3B9BA00473CDC /* Build configuration list for PBXNativeTarget "GetID3V2TitleFromMP3UITests" */;
+			buildPhases = (
+				6903DCF31CA3B9BA00473CDC /* Sources */,
+				6903DCF41CA3B9BA00473CDC /* Frameworks */,
+				6903DCF51CA3B9BA00473CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6903DCF91CA3B9BA00473CDC /* PBXTargetDependency */,
+			);
+			name = GetID3V2TitleFromMP3UITests;
+			productName = GetID3V2TitleFromMP3UITests;
+			productReference = 6903DCF71CA3B9BA00473CDC /* GetID3V2TitleFromMP3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6903DCCB1CA3B9BA00473CDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZHOU;
+				TargetAttributes = {
+					6903DCD21CA3B9BA00473CDC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					6903DCEB1CA3B9BA00473CDC = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4E3E49596Q;
+						TestTargetID = 6903DCD21CA3B9BA00473CDC;
+					};
+					6903DCF61CA3B9BA00473CDC = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4E3E49596Q;
+						TestTargetID = 6903DCD21CA3B9BA00473CDC;
+					};
+				};
+			};
+			buildConfigurationList = 6903DCCE1CA3B9BA00473CDC /* Build configuration list for PBXProject "GetID3V2TitleFromMP3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6903DCCA1CA3B9BA00473CDC;
+			productRefGroup = 6903DCD41CA3B9BA00473CDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6903DCD21CA3B9BA00473CDC /* GetID3V2TitleFromMP3 */,
+				6903DCEB1CA3B9BA00473CDC /* GetID3V2TitleFromMP3Tests */,
+				6903DCF61CA3B9BA00473CDC /* GetID3V2TitleFromMP3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6903DCD11CA3B9BA00473CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6903DCE61CA3B9BA00473CDC /* LaunchScreen.storyboard in Resources */,
+				69718D2E1CA3CA6300143B45 /* music1.mp3 in Resources */,
+				69718D321CA3D1D100143B45 /* music2.mp3 in Resources */,
+				6903DCE31CA3B9BA00473CDC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903DCEA1CA3B9BA00473CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903DCF51CA3B9BA00473CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		564C80BB6025C691123E7D75 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A353EB366DA26CACE4A90FF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFA0EE85D260D2815A78F50B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6903DCCF1CA3B9BA00473CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6903DCDE1CA3B9BA00473CDC /* ViewController.m in Sources */,
+				6903DCDB1CA3B9BA00473CDC /* AppDelegate.m in Sources */,
+				6903DCD81CA3B9BA00473CDC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903DCE81CA3B9BA00473CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6903DCF11CA3B9BA00473CDC /* GetID3V2TitleFromMP3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6903DCF31CA3B9BA00473CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6903DCFC1CA3B9BA00473CDC /* GetID3V2TitleFromMP3UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6903DCEE1CA3B9BA00473CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6903DCD21CA3B9BA00473CDC /* GetID3V2TitleFromMP3 */;
+			targetProxy = 6903DCED1CA3B9BA00473CDC /* PBXContainerItemProxy */;
+		};
+		6903DCF91CA3B9BA00473CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6903DCD21CA3B9BA00473CDC /* GetID3V2TitleFromMP3 */;
+			targetProxy = 6903DCF81CA3B9BA00473CDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6903DCE41CA3B9BA00473CDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6903DCE51CA3B9BA00473CDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6903DCFE1CA3B9BA00473CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6903DCFF1CA3B9BA00473CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6903DD011CA3B9BA00473CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB43E5AA8561B732414737E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GetID3V2TitleFromMP3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MIANSHI.GetID3V2TitleFromMP3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6903DD021CA3B9BA00473CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71845E7DE99571FEF6EB23AA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GetID3V2TitleFromMP3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MIANSHI.GetID3V2TitleFromMP3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6903DD041CA3B9BA00473CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetID3V2TitleFromMP3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MIANSHI.GetID3V2TitleFromMP3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetID3V2TitleFromMP3.app/GetID3V2TitleFromMP3";
+			};
+			name = Debug;
+		};
+		6903DD051CA3B9BA00473CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetID3V2TitleFromMP3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MIANSHI.GetID3V2TitleFromMP3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetID3V2TitleFromMP3.app/GetID3V2TitleFromMP3";
+			};
+			name = Release;
+		};
+		6903DD071CA3B9BA00473CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetID3V2TitleFromMP3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MIANSHI.GetID3V2TitleFromMP3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetID3V2TitleFromMP3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6903DD081CA3B9BA00473CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetID3V2TitleFromMP3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MIANSHI.GetID3V2TitleFromMP3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetID3V2TitleFromMP3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6903DCCE1CA3B9BA00473CDC /* Build configuration list for PBXProject "GetID3V2TitleFromMP3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6903DCFE1CA3B9BA00473CDC /* Debug */,
+				6903DCFF1CA3B9BA00473CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6903DD001CA3B9BA00473CDC /* Build configuration list for PBXNativeTarget "GetID3V2TitleFromMP3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6903DD011CA3B9BA00473CDC /* Debug */,
+				6903DD021CA3B9BA00473CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6903DD031CA3B9BA00473CDC /* Build configuration list for PBXNativeTarget "GetID3V2TitleFromMP3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6903DD041CA3B9BA00473CDC /* Debug */,
+				6903DD051CA3B9BA00473CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6903DD061CA3B9BA00473CDC /* Build configuration list for PBXNativeTarget "GetID3V2TitleFromMP3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6903DD071CA3B9BA00473CDC /* Debug */,
+				6903DD081CA3B9BA00473CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6903DCCB1CA3B9BA00473CDC /* Project object */;
+}
